@@ -1,0 +1,35 @@
+{
+    // editor
+    "editor.stickyScroll.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "JetBrains Mono",
+
+    // ide
+    "telemetry.telemetryLevel": "off",
+    "window.titleBarStyle": "custom",
+    "window.customTitleBarVisibility": "never",
+    "workbench.settings.editor": "json",
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.editor.enablePreview": false,
+    "explorer.autoReveal": false,
+    "editor.inlayHints.enabled": "off",
+    // "workbench.tree.enableStickyScroll": true,
+    
+    // plugins
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "[c]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "off"
+    },
+}
